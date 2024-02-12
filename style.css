@@ -109,13 +109,14 @@ header a:hover {
 
     header img {
         margin: auto;
+        height: 60px;
         margin-bottom: 10px;
     }
 
     header li {
         display: block;
         margin: 8px auto;
-        margin-left: 10px;
+        margin-left: 15px;
         font-size: 18px;
     }
 
