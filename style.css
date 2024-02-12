@@ -100,6 +100,68 @@ header a:hover {
     visibility: hidden;
 }
 
+/* Media query for mobile devices */
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 15px;
+    }
+
+    header h1 {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    header li {
+        display: block;
+        margin: 10px 0;
+        font-size: 18px;
+    }
+
+    .main {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 100px;
+    }
+
+    #profile-pic {
+        height: 200px;
+        width: 200px;
+        margin-top: -25px;
+        margin-bottom: 15px;
+    }
+
+    .profile-info {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .profile-info p {
+        margin: 0 auto;
+    }
+
+    .profile-info h1 {
+        font-size: 24px;
+    }
+
+    .profile-info h3 {
+        font-size: 18px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+
+    #button {
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    .linkedIn {
+        visibility: hidden;
+        margin-top: 10px;
+    }
+}
+
 
 
 
