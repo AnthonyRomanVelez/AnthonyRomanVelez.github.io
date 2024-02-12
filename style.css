@@ -10,29 +10,28 @@ header {
     display: flex;
     justify-content: space-between;
     margin-top: 25px;
-    border-bottom: 1px solid aqua;
+    border-bottom: 3px solid rgb(10, 94, 128);
     align-items: center;
     padding-bottom: 15px;
 }
 
-header h1 {
-    color: aqua;
+header img {
+    height: 95px;
     margin-left: 25px;
 }
 
 header li{
     display: inline;
     padding-right: 10px;
-    font-size: 22px;
+    font-size: 24px;
     font-weight: bold;
-    color: aqua;
     padding-left: 10px;
     margin-right: 25px;
 }
 
 header a {
     text-decoration: none;
-    color: aqua;
+    color: rgb(87, 202, 248);
 }
 
 header a:hover {
@@ -43,7 +42,7 @@ header a:hover {
 
 .main {
     display: flex;
-    color: aqua;
+    color: rgb(87, 202, 248);
     justify-content: center;
     align-items: center;
     margin-top: 200px;
@@ -108,14 +107,15 @@ header a:hover {
         margin-top: 15px;
     }
 
-    header h1 {
-        margin-left: 0;
+    header img {
+        margin: auto;
         margin-bottom: 10px;
     }
 
     header li {
         display: block;
-        margin: 10px 0;
+        margin: 8px auto;
+        margin-left: 10px;
         font-size: 18px;
     }
 
