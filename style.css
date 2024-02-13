@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI';
+    font-family: "Comic Sans MS";
     background-color: black;
 }
 
@@ -42,7 +42,7 @@ header a:hover {
 
 .main {
     display: flex;
-    color: rgb(87, 202, 248);
+    color: #fff;
     justify-content: center;
     align-items: center;
     margin-top: 200px;
@@ -76,7 +76,7 @@ header a:hover {
 }
 
 #button {
-    background-color: white;
+    background-color: rgb(87, 202, 248);
     text-decoration: none;
     color: black;
     padding: 10px;
@@ -87,8 +87,8 @@ header a:hover {
 }
 
 #button:hover {
-    color: white;;
-    background-color: gray;
+    color: black;
+    background-color: silver;
     transition: 0.3s ease-in-out;
 
 }
@@ -97,6 +97,45 @@ header a:hover {
     border: 1px solid orange;
     height: 35px;
     visibility: hidden;
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    margin-top: 20%;
+    margin-left: 25px;
+    gap: 35px;
+}
+
+#about-paragraph {
+    width: 45%;
+    text-align: center;
+}
+
+.about h2 {
+    margin-bottom: 25px;
+    
+}
+
+.paragraph {
+    line-height: 1.8;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+#laptop-image img {
+    width: 400px;
+    margin-top: 300px;
+    border-radius: 25px;
+}
+
+#code-image img {
+    width: 320px;
+}
+
+footer {
+    margin-top: 100px;
 }
 
 /* Media query for mobile devices */
