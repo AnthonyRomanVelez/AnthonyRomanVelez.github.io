@@ -200,6 +200,30 @@ footer {
         visibility: hidden;
         margin-top: 10px;
     }
+    
+    .about {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+    #about-paragraph {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .paragraph {
+        font-size: 18px;
+    }
+    #laptop-image img {
+        width: 200px;
+        border-radius: 25px;
+        margin: 10px auto;
+    }
+    
+    #code-image img {
+        width: 200px;
+        margin: 0 auto;
+        
+    }
 }
 
 
