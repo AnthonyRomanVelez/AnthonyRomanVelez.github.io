@@ -117,7 +117,17 @@ header a:hover {
     margin-bottom: 25px;
     text-align: center;
     color: rgb(87, 202, 248);
-    font-size: 36px;
+    font-size: 35px;
+}
+
+.about a {
+    margin-left: 10px;
+    color: purple;
+    font-style: italic;
+}
+
+.about a:hover {
+    color: greenyellow;
 }
 
 .paragraph {
@@ -134,8 +144,30 @@ header a:hover {
 }
 
 footer {
+    border-top: 3px solid rgb(10, 94, 128);
     margin-top: 100px;
 }
+
+.contact-logos {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.contact-logos img{
+    width: 75px;
+}
+
+footer h2{
+    margin-bottom: 60px;
+    margin-top: 25px;
+    color: rgb(87, 202, 248);
+    display: block;
+    text-align: center;
+    font-size: 35px;
+}
+
 
 /* Media query for mobile devices */
 @media screen and (max-width: 768px) {
