@@ -179,7 +179,7 @@ footer h2{
 
     header img {
         margin: 0 auto;
-        height: 120px;
+        height: 200px;
         margin-bottom: 10px;
     }
 
@@ -187,7 +187,7 @@ footer h2{
         display: block;
         margin: 8px auto;
         margin-left: 15px;
-        font-size: 18px;
+        font-size: 26px;
     }
 
     .main {
@@ -197,8 +197,8 @@ footer h2{
     }
 
     #profile-pic {
-        height: 200px;
-        width: 200px;
+        height: 300px;
+        width: 300px;
         margin-top: -25px;
         margin-bottom: 15px;
     }
@@ -227,19 +227,15 @@ footer h2{
         margin-top: 10px;
     }
 
-    .linkedIn {
-        visibility: hidden;
-        margin-top: 10px;
-    }
-    
     .about {
         display: block;
         margin: 0 auto;
         text-align: center;
+        margin-top: 100px;
     }
 
     .about h2 {
-        font-size: 22px;
+        font-size: 25px;
         margin-bottom: 5px;
         text-align: left;
     }
@@ -259,6 +255,10 @@ footer h2{
     }
     .contact-logos img{
         width: 60px;
+    }
+
+    #contact h2{
+        font-size: 25px;
     }
 }
 
