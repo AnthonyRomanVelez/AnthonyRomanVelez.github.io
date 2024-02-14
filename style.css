@@ -257,6 +257,9 @@ footer h2{
         align-content: center;
         margin-right: 8px;
     }
+    .contact-logos img{
+        width: 25px;
+    }
 }
 
 
