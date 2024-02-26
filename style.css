@@ -6,6 +6,7 @@
     background-color: black;
 }
 
+/* Header Section */
 header {
     display: flex;
     justify-content: space-between;
@@ -40,6 +41,7 @@ header a:hover {
     transition: .2s ease-in-out;
 }
 
+/* Welcome Section */
 .main {
     display: flex;
     color: #fff;
@@ -99,6 +101,7 @@ header a:hover {
     visibility: hidden;
 }
 
+/* About Section */
 .about {
     display: flex;
     flex-wrap: wrap;
@@ -143,6 +146,53 @@ header a:hover {
     margin-right: 18px;
 }
 
+/* Experience Section */
+#experience {
+    text-align: center;
+    margin: 0 auto;
+    color: rgb(87, 202, 248);
+    font-size: 35px;
+    margin-top: 300px;
+    margin-bottom: 25px;
+
+}
+.experience-wrapper {
+    color: white;
+    word-spacing: 1px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-between;
+    width: 100%;
+}
+.soft-skills, .technical-skills, .additional-experience {
+    padding: 5px;
+    width: 30%;
+    box-shadow: 4px 5px 15px 8px rgba(87, 202, 248, 0.3);
+}
+.experience-wrapper h3 {
+    text-align: center;
+    margin: 8px;
+    letter-spacing: 1.5px;
+    word-spacing: 3px;
+}
+.experience-wrapper b {
+    font-style: italic;
+}
+.experience-wrapper ul {
+    padding: 20px;
+}
+.experience-wrapper li {
+    line-height: 20px;
+    margin: 12px 0;
+}
+#return-home {
+    color: purple;
+    font-style: italic;
+    margin-left: 50%;
+}
+
+/* Footer Section */
 footer {
     border-top: 3px solid rgb(10, 94, 128);
     margin-top: 100px;
@@ -159,7 +209,7 @@ footer {
     width: 75px;
 }
 
-footer h2{
+footer h2 {
     margin-bottom: 60px;
     margin-top: 25px;
     color: rgb(87, 202, 248);
@@ -259,6 +309,10 @@ footer h2{
 
     #contact h2{
         font-size: 25px;
+    }
+    .soft-skills, .technical-skills, .additional-experience {
+        width: 100%;
+        margin-bottom: 50px;
     }
 }
 

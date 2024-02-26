@@ -1,1 +1,1 @@
-My personal projects portfolio. I'm still working on it.
+My full stack portfolio. I'm still working on it.
