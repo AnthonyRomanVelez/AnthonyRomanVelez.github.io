@@ -191,6 +191,9 @@ header a:hover {
     font-style: italic;
     margin-left: 50%;
 }
+#return-home:hover {
+    color: greenyellow;
+}
 
 /* Footer Section */
 footer {
