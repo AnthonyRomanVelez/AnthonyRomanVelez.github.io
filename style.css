@@ -313,9 +313,15 @@ footer h2 {
     #contact h2{
         font-size: 25px;
     }
-    .soft-skills, .technical-skills, .additional-experience {
+    .soft-skills, .technical-skills {
         width: 100%;
         margin-bottom: 50px;
+    }
+    .additional-experience {
+        width: 100%;
+    }
+    #return-home {
+        margin-left: 45%;
     }
 }
 
