@@ -17,7 +17,7 @@ header {
 }
 
 header img {
-    height: 95px;
+    width: 120px;
     margin-left: 25px;
 }
 
@@ -91,7 +91,7 @@ header a:hover {
 #button:hover {
     color: black;
     background-color: silver;
-    transition: 0.3s ease-in-out;
+    transition: 0.2s ease-in-out;
 
 }
 
@@ -168,7 +168,8 @@ header a:hover {
 .soft-skills, .technical-skills, .additional-experience {
     padding: 5px;
     width: 30%;
-    box-shadow: 4px 5px 15px 8px rgba(87, 202, 248, 0.3);
+    border-radius: 7px;
+    box-shadow: 2px 3px 16px 6px rgba(87, 202, 248, 0.3);
 }
 .experience-wrapper h3 {
     text-align: center;
@@ -194,6 +195,65 @@ header a:hover {
 #return-home:hover {
     color: greenyellow;
 }
+
+/* Projects Section */
+#projects {
+    text-align: center;
+    margin: 0 auto;
+    color: rgb(87, 202, 248);
+    font-size: 35px;
+    margin-top: 300px;
+    margin-bottom: 25px;
+}
+#project-wrapper {
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    width: 300px; 
+}
+.facebook-project img {
+    width: 300px;
+    border-radius: 10px;
+}
+.facebook-project h3, .facebook-project p {
+    color: black;
+    background-color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+.facebook-project {
+    border: 1px solid white;
+    padding: 10px;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+}
+.facebook-project p {
+    font-size: 12px;
+    margin: 10px;
+}
+.facebook-project button {
+    background-color: white;
+    padding: 8px;
+    border-radius: 10px;
+    width: 100px;
+    background-color: rgb(87, 202, 248);
+    border: 1px solid  rgb(87, 202, 248);
+    margin-bottom: 15px;
+    font-weight: 700;
+    transition: transform 200ms ease;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.facebook-project button:hover {
+    color: black;
+    transform: scale(.96);
+}
+.facebook-project a {
+    background-color: white;
+}
+
 
 /* Footer Section */
 footer {
