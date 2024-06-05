@@ -1,7 +1,6 @@
 [submodule "Facebook-Login"]
 	path = Facebook-Login
-	url = https://github.com/AnthonyRomanVelez/Facebook-Login
+	url = https://github.com/AnthonyRomanVelez/Facebook-Login.git
 
-[submodule "Facebook_Sign_Up"]
-	path = Facebook_Sign_Up
-	url = https://github.com/AnthonyRomanVelez/Facebook_Sign_Up
+[submodule "Facebook-Sign_Up"]
+	url = https://github.com/AnthonyRomanVelez/Facebook_Sign_Up.git
