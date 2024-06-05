@@ -3,4 +3,5 @@
 	url = https://github.com/AnthonyRomanVelez/Facebook-Login.git
 
 [submodule "Facebook-Sign_Up"]
+    path = Facebook_Sign_Up
 	url = https://github.com/AnthonyRomanVelez/Facebook_Sign_Up.git
