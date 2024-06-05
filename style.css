@@ -123,10 +123,11 @@ header a:hover {
     font-size: 35px;
 }
 
-.about a {
+.return-home {
     margin-left: 10px;
     color: purple;
     font-style: italic;
+    visibility: hidden;
 }
 
 .about a:hover {
@@ -187,10 +188,11 @@ header a:hover {
     line-height: 20px;
     margin: 12px 0;
 }
-#return-home {
+.return-home {
     color: purple;
     font-style: italic;
     margin-left: 50%;
+    visibility: hidden;
 }
 #return-home:hover {
     color: greenyellow;
@@ -202,7 +204,7 @@ header a:hover {
     margin: 0 auto;
     color: rgb(87, 202, 248);
     font-size: 35px;
-    margin-top: 300px;
+    margin-top: 200px;
     margin-bottom: 25px;
 }
 #project-wrapper {
@@ -292,7 +294,7 @@ footer h2 {
 
     header img {
         margin: 0 auto;
-        height: 200px;
+        width: 100px;
         margin-bottom: 10px;
     }
 
@@ -301,6 +303,7 @@ footer h2 {
         margin: 8px auto;
         margin-left: 15px;
         font-size: 26px;
+        text-align: center;
     }
 
     .main {
@@ -377,13 +380,133 @@ footer h2 {
         width: 100%;
         margin-bottom: 50px;
     }
+    #experience {
+        margin-top: 20px;
+    }
     .additional-experience {
         width: 100%;
     }
-    #return-home {
-        margin-left: 45%;
+    .return-home {
+        visibility: hidden;
+    }
+    #projects {
+        margin-top: 10px;
+    }
+    #project-wrapper {
+        align-items: center;
     }
 }
+
+/* Media query for tablets devices */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Header Section */
+    header {
+        margin-top: 20px;
+    }
+    header img {
+        width: 100px;
+    }
+    header li {
+        font-size: 22px;
+        padding-right: 5px;
+        padding-left: 5px;
+        margin-right: 20px;
+    }
+    /* Welcome Section */
+    .main {
+        margin-top: 150px;
+    }
+    #profile-pic {
+        height: 250px;
+        width: 250px;
+    }
+    .profile-info {
+        margin-left: 30px;
+    }
+    .profile-info p {
+        margin-left: 60px;
+    }
+    .profile-info h1 {
+        margin-left: 10px;
+    }
+    .profile-info h3 {
+        margin-left: 40px;
+        margin-bottom: 20px;
+    }
+    #button {
+        margin-left: 40px;
+    }
+    /* About Section */
+    .about {
+        margin-top: 15%;
+        margin-left: 90px;
+    }
+    .about h2 {
+        font-size: 30px;
+    }
+    #about-paragraph {
+        width: 90%;
+    }
+    .paragraph {
+        font-size: 20px;
+    }
+    #family-image img {
+        width: 300px;
+    }
+    .return-home {
+        visibility: hidden;
+    }
+    /* Experience Section */
+    #experience {
+        font-size: 30px;
+        margin-top: 80px;
+        margin-bottom: 20px;
+    }
+    .experience-wrapper h3 {
+        margin: 5px;
+    }
+    .experience-wrapper ul {
+        padding: 15px;
+    }
+    .experience-wrapper li {
+        margin: 10px 0;
+    }
+    #return-home {
+        font-size: 20px;
+    }
+    /* Projects Section */
+    #projects {
+        font-size: 30px;
+        margin-top: 80px;
+        margin-bottom: 20px;
+    }
+    #project-wrapper {
+        width: 400px;
+    }
+    .facebook-project img {
+        width: 250px;
+    }
+    .facebook-project h3, .facebook-project p {
+        margin-top: 8px;
+        font-size: 18px;
+    }
+    .facebook-project p {
+        font-size: 14px;
+    }
+    .facebook-project button {
+        width: 100px;
+        margin-bottom: 10px;
+    }
+    .contact-logos img {
+        width: 65px;
+    }
+    footer h2 {
+        font-size: 30px;
+        margin-bottom: 50px;
+        margin-top: 20px;
+    }
+}
+
 
 
 
