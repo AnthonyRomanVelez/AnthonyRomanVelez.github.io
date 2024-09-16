@@ -18,7 +18,13 @@ header {
 
 header img {
     width: 120px;
-    margin-left: 25px;
+    margin-left: 15px;
+}
+
+#menu-logo, #x-logo {
+    max-width: 40px;
+    cursor: pointer;
+    display: none;
 }
 
 header li{
@@ -287,23 +293,44 @@ footer h2 {
 /* Media query for mobile devices */
 @media screen and (max-width: 768px) {
     header {
-        flex-direction: column;
-        align-items: center;
-        margin-top: 15px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #menu-logo {
+        display: block;
     }
 
     header img {
-        margin: 0 auto;
         width: 100px;
         margin-bottom: 10px;
+        margin: 0 10px 0 10px;
     }
 
+    #nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #333;
+        position: absolute;
+        top: 70px; 
+        left: 0;
+        text-decoration: none;
+    }
+
+    #nav-links.active {
+        display: flex;
+    }
+
+
     header li {
-        display: block;
-        margin: 8px auto;
-        margin-left: 15px;
-        font-size: 26px;
         text-align: center;
+        padding: 10px 0;
+        border-bottom: none;
+        text-decoration: none;
+        font-size: 16px;
+        width: 100%;
+
     }
 
     .main {
