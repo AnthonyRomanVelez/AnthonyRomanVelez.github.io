@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Eleganza | Register/Login</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Briem+Hand:wght@100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    </head>
+<body>
+<!-- Navigation Bar -->
+    <nav>
+         <img src="resources/eleganza-high-resolution-logo-transparent (1).png">
+        <ul>
+            <a href="index.html"><li>Home</li></a>
+            <li>Men</li>
+            <li>Women</li>
+            <li>Children</li>
+            <li>Clearance</li>
+        </ul>
+        <div class="search-bar">
+            <input type="text" name="search" placeholder="  Search...">
+            <i class='bx bx-search-alt-2' undefined ></i>
+        </div>
+        <div class="nav-icons">
+            <a href="register_login.html" target="_blank">
+                <img src="resources/user-solid.svg">
+            </a>
+            <i class='bx bxs-heart'></i>
+            <img src="resources/bag-shopping-solid.svg">
+        </div>
+    </nav>
+
+<!-- Registration Section -->
+    <section class="reg_wrapper">
+        <div class="container register">
+            <div class="registration">
+                <h1>Create New Account</h1>
+            </div>
+            <div class="registration-form">
+                    <div class="email input-forms">
+                        <input type="email" name="user-email" placeholder="EMAIL">
+                    </div>   
+                    <div class="first-last input-forms">
+                        <input type="text" name="first-name" placeholder="FIRST NAME">
+                        <input type="text" name="last-name" placeholder="LAST NAME">
+                    </div>
+                    <div class="phone input-forms">
+                        <input type="tel" name="mobile" placeholder="PHONE">
+                    </div>
+                    <div class="password input-forms" >
+                        <input type="password" name="password" placeholder="PASSWORD">
+                    </div>
+            </div>
+            <div class="register-button">
+                <button type="submit">Create Account</button>
+            </div>
+        </div>
+
+        <div class="container register">
+            <div class="registration">
+                <h1>Sign In</h1>
+            </div>
+            <div class="registration-form">
+                    <div class="email log-in input-forms">
+                        <input type="email" name="user-email" placeholder="EMAIL">
+                    </div>   
+                    <div class="password log-in input-forms" >
+                        <input type="password" name="password" placeholder="PASSWORD">
+                    </div>
+            </div>
+            <div class="register-button log-in-buttn">
+                <button id="signIn" type="submit">Sign In</button>
+            </div>
+            <p>Forgot password?</p>
+        </div>
+    </section>
+
+    
+</body>
+</html>

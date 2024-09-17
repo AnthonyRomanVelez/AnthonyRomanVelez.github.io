@@ -1,0 +1,447 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+color: rgb(30, 48, 80);
+font-family: "Bebas Neue", sans-serif;
+letter-spacing: 1.5px;
+}
+
+/* nav section*/
+nav {
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 2px solid rgb(30, 48, 80);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+    background-color: white;
+
+}
+nav img {
+    width: 60px;
+    margin-left: 25px;
+}
+nav h1 {
+    font-size: 2.5rem;
+    border-left: 2px solid rgb(30, 48, 80);
+    border-top: 2px solid rgb(30, 48, 80);
+    border-bottom: 2px solid turquoise;
+    border-right: 2px solid turquoise;
+    padding: 5px;
+    font-family: "Bebas Neue", sans-serif;
+}
+nav ul li{
+    display: inline-block;
+    font-size: 1.2rem;  
+    text-align: center; 
+    margin: 0px 30px; 
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 200ms ease-in-out;
+}
+nav ul li:hover {
+    text-decoration: none;
+    transform: scale(1.1);
+}
+.search-bar {
+    border: 1px solid black;
+    width: 200px;
+    padding: 0 5px;
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.search-bar input {
+    height: 30px;
+    width: 160px;
+    border: none;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.search-bar i {
+    font-size: 22px;
+    cursor: pointer;
+}
+.nav-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+.nav-icons img {
+    width: 20px;
+    cursor: pointer;
+    margin: 0px 15px;
+}
+.nav-icons i {
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+}
+
+/* header section */
+header {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: baseline;
+    align-items: center;
+    margin-top: 90px;
+    padding: 30px;
+    background-image: url("resources/pexels-jmendezrf-1536619.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+#discount {
+    font-size: 6.0rem;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#description {
+    font-size: 2.0rem;
+    font-style: italic;
+    margin-bottom: 40px;
+}
+#link {
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    padding-top: 2.5rem;
+    border: 1px solid turquoise;
+    background-color: turquoise;
+    width: 160px;
+    text-align: center;
+    border-radius: 25px;
+    padding: 10px;
+    margin-left: 90px;
+    transition: transform 200ms ease-in-out;
+}
+#link:hover {
+    transform: scale(0.90);
+}
+
+/*-- Top Seller Section --*/
+.top-seller-sec {
+    padding: 40px;
+    background-color: papayawhip;
+}
+.top-seller-banner {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.top-seller-products-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 40px;
+    justify-items: center;
+}
+.top-seller-products {
+    width: 200px;
+    box-shadow: 2px 3px 8px 2px silver;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+.top-seller-products img{
+    width: 200px; 
+    height: 250px;  
+    transition: transform 200ms ease-in-out; 
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.top-seller-products img:hover {
+    transform: scale(1.02);
+}
+.star-icon {
+    text-align: start;
+    margin-bottom: 5px;
+    padding-left: 4px;
+    margin-top: 10px;
+}
+.bxs-star {
+    color: gold;
+}
+.bx-heart {
+    cursor: pointer;
+    text-align: end;
+    margin-left: 30%;
+    color: rgb(30, 48, 80);
+}
+.bx-heart:hover {
+    color: red;
+}
+.top-seller-brand-name {
+    text-align: start;
+    font-size: 18px;
+    padding-left: 10px;
+}
+.top-seller-price {
+    text-align: start;
+    font-size: 14px;
+    margin-top: 10px;
+    padding-left: 4px;
+}
+.top-seller-select {
+    border: 1px solid green;
+    background-color: green;
+    width: 50px;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+    margin-left: 65%;
+    margin-bottom: 15px;
+}
+.top-seller-select:hover {
+    background-color: darkgreen;
+    border: 1px solid darkgreen;
+}
+.top-seller-select p {
+    color: white;
+}
+
+/*-- Season Offers --*/
+.season-offers-section {
+    width: 100%;
+    background-color: white;    
+}
+.season-offers-section h2{
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.season-img {
+    width: 100%;
+}
+.season-offer-container {
+    display: flex;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 80%;
+    text-align: center;
+    border-radius: 5px;
+}
+.season-image-container {
+   animation: slide 40s infinite;
+   display: flex;
+   width: 100%;
+}
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    12.5% {
+        transform: translateX(-100%);
+    }
+    25% {
+        transform: translateX(-200%);
+    }
+    37.5% {
+        transform: translateX(-300%);
+    }
+    50% {
+        transform: translateX(-400%);
+    }
+    62.5% {
+        transform: translateX(-500%);
+    }
+    75% {
+        transform: translateX(-600%);
+    }
+    87.5% {
+        transform: translateX(-700%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+.season-offers-section p {
+    text-align: center;
+    margin-top: 10px;
+    font-style: italic;
+}
+.bold {
+    color: aqua;
+    letter-spacing: 3.5px;
+    font-size: 38px;
+    cursor: pointer;
+    transition: transform 200ms ease-in-out;
+}
+.bold:hover {
+    transform: scale(1.5);
+    text-decoration: none;
+}
+
+/*-- Clothes Categories Section --*/
+.clothes-category-section {
+        width: 100%;
+        margin: 80px 0;
+        background-color:rgb(201, 221, 227);
+        padding: 25px;
+        display: flex;
+        align-items: center;
+        justify-content:space-around;
+        text-align: center;   
+}
+.clothes {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px 100px;
+}
+.clothes-category-section p {
+    cursor: pointer;
+    font-weight: bold;
+}
+.clothes-category-section img {
+    cursor: pointer;
+}
+
+
+/*-- Satisfied Customer Section --*/
+.satisfied-cus-wrapper {
+    width: 100%;
+    text-align: center;
+}
+.satisfied-cus-wrapper h2 {
+    margin: 40px 0;
+}
+.customer-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+}
+.box {
+    width: 260px;
+    margin-bottom: 80px;
+}
+.satisfied img {
+    width: 260px;
+    height: 350px; 
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+blockquote {
+    font-style: italic;
+}
+.customer-wrapper p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/*-- Footer Section--*/
+footer {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;    
+    padding: 70px 20px;
+}
+.footer h4, .footer p, .footer h5, .footer i{
+    color: white;
+}
+.footer h4 {
+    border-bottom: 2px solid white;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.footer p {
+    margin-top: 8px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.footer i {
+    font-size: 50px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+.copywright h5 {
+    color: darkgrey;
+    text-align: center;
+    margin: 10px 0;
+    font-style: italic;
+}
+
+/*======================================================*/
+
+/*-- Registration and LogIn --*/
+.reg_wrapper {
+    margin-top: 100px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(resources/login-background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 92px;
+}
+.register {
+    text-align: center;
+    background-color: white;
+    border: 1px solid silver;
+    width: 30%;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px 1px rgba(123, 122, 122, 0.6);
+}
+.registration-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.registration {
+    margin: 20px 0;
+}
+.register-button {
+    margin: 20px 0;
+}
+.input-forms {
+    margin: 10px 5px;
+}
+.email input, .phone input, .password input {
+    width: 100%;
+    height: 30px;
+    padding-left: 5px;
+}
+.first-last input {
+    width: 49%;
+    height: 30px;
+    padding-left: 5px;
+}
+.register-button button {
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.log-in input {
+    height: 50px;
+}
+.log-in-buttn button {
+    padding: 10px 55px;
+    margin-top: 25px;
+}
+.reg_wrapper p {
+    font-size: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgb(76, 13, 76);
+    text-decoration: underline;
+    cursor: pointer;
+}
+input::placeholder {
+    color: rgb(206, 202, 202);
+}
+
