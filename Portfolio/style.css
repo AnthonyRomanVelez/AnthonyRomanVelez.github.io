@@ -1,0 +1,541 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial";
+    background-color: black;
+}
+
+/* Header Section */
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    border-bottom: 3px solid rgb(10, 94, 128);
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+header img {
+    width: 120px;
+    margin-left: 15px;
+}
+
+#menu-logo, #x-logo {
+    max-width: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+header li{
+    display: inline;
+    padding-right: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 10px;
+    margin-right: 25px;
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(87, 202, 248);
+}
+
+header a:hover {
+    color: silver;
+    text-underline-offset: 8px;
+    transition: .2s ease-in-out;
+}
+
+/* Welcome Section */
+.main {
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+#profile-pic{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 3px solid gray;
+}
+
+.profile-info {
+    margin-left: 45px;
+}
+
+.profile-info p{
+    margin-left: 90px;
+    font-style: italic;
+    padding-bottom: 10px;
+}
+
+.profile-info h1 {
+    margin-left: 10px;
+    padding-bottom: 20px;
+}
+
+.profile-info h3 {
+    margin-left: 50px;
+    margin-bottom: 25px;
+}
+
+#button {
+    background-color: rgb(87, 202, 248);
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-radius: 25px;
+    font-weight: 600;
+    margin-right: 5px;
+    margin-left: 50px;
+}
+
+#button:hover {
+    color: black;
+    background-color: silver;
+    transition: 0.2s ease-in-out;
+
+}
+
+.linkedIn {
+    border: 1px solid orange;
+    height: 35px;
+    visibility: hidden;
+}
+
+/* About Section */
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    margin-top: 20%;
+    margin-left: 25px;
+    gap: 35px;
+}
+
+#about-paragraph {
+    width: 75%;
+    text-align: left;
+}
+
+.about h2 {
+    margin-bottom: 25px;
+    text-align: center;
+    color: rgb(87, 202, 248);
+    font-size: 35px;
+}
+
+.return-home {
+    margin-left: 10px;
+    color: purple;
+    font-style: italic;
+    visibility: hidden;
+}
+
+.about a:hover {
+    color: greenyellow;
+}
+
+.paragraph {
+    line-height: 1.8;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+#family-image img {
+    width: 550px;
+    border-radius: 12px;
+    float: left;
+    margin-right: 18px;
+}
+
+/* Experience Section */
+#experience {
+    text-align: center;
+    margin: 0 auto;
+    color: rgb(87, 202, 248);
+    font-size: 35px;
+    margin-top: 300px;
+    margin-bottom: 25px;
+
+}
+.experience-wrapper {
+    color: white;
+    word-spacing: 1px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-between;
+    width: 100%;
+}
+.soft-skills, .technical-skills, .additional-experience {
+    padding: 5px;
+    width: 30%;
+    border-radius: 7px;
+    box-shadow: 2px 3px 16px 6px rgba(87, 202, 248, 0.3);
+}
+.experience-wrapper h3 {
+    text-align: center;
+    margin: 8px;
+    letter-spacing: 1.5px;
+    word-spacing: 3px;
+}
+.experience-wrapper b {
+    font-style: italic;
+}
+.experience-wrapper ul {
+    padding: 20px;
+}
+.experience-wrapper li {
+    line-height: 20px;
+    margin: 12px 0;
+}
+.return-home {
+    color: purple;
+    font-style: italic;
+    margin-left: 50%;
+    visibility: hidden;
+}
+#return-home:hover {
+    color: greenyellow;
+}
+
+/* Projects Section */
+#projects {
+    text-align: center;
+    margin: 0 auto;
+    color: rgb(87, 202, 248);
+    font-size: 35px;
+    margin-top: 200px;
+    margin-bottom: 25px;
+}
+#project-wrapper {
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    width: 300px; 
+}
+.facebook-project img {
+    width: 300px;
+    border-radius: 10px;
+}
+.facebook-project h3, .facebook-project p {
+    color: black;
+    background-color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+.facebook-project {
+    border: 1px solid white;
+    padding: 10px;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+}
+.facebook-project p {
+    font-size: 12px;
+    margin: 10px;
+}
+.facebook-project button {
+    background-color: white;
+    padding: 8px;
+    border-radius: 10px;
+    width: 100px;
+    background-color: rgb(87, 202, 248);
+    border: 1px solid  rgb(87, 202, 248);
+    margin-bottom: 15px;
+    font-weight: 700;
+    transition: transform 200ms ease;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.facebook-project button:hover {
+    color: black;
+    transform: scale(.96);
+}
+.facebook-project a {
+    background-color: white;
+}
+
+
+/* Footer Section */
+footer {
+    border-top: 3px solid rgb(10, 94, 128);
+    margin-top: 100px;
+}
+
+.contact-logos {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.contact-logos img{
+    width: 75px;
+}
+
+footer h2 {
+    margin-bottom: 60px;
+    margin-top: 25px;
+    color: rgb(87, 202, 248);
+    display: block;
+    text-align: center;
+    font-size: 35px;
+}
+
+
+/* Media query for mobile devices */
+@media screen and (max-width: 768px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #menu-logo {
+        display: block;
+    }
+
+    header img {
+        width: 100px;
+        margin-bottom: 10px;
+        margin: 0 10px 0 10px;
+    }
+
+    #nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #333;
+        position: absolute;
+        top: 70px; 
+        left: 0;
+        text-decoration: none;
+    }
+
+    #nav-links.active {
+        display: flex;
+    }
+
+
+    header li {
+        text-align: center;
+        padding: 10px 0;
+        border-bottom: none;
+        text-decoration: none;
+        font-size: 16px;
+        width: 100%;
+
+    }
+
+    .main {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 100px;
+    }
+
+    #profile-pic {
+        height: 300px;
+        width: 300px;
+        margin-top: -25px;
+        margin-bottom: 15px;
+    }
+
+    .profile-info {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .profile-info p {
+        margin: 0 auto;
+    }
+
+    .profile-info h1 {
+        font-size: 24px;
+    }
+
+    .profile-info h3 {
+        font-size: 18px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+
+    #button {
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    .about {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .about h2 {
+        font-size: 25px;
+        margin-bottom: 5px;
+        text-align: left;
+    }
+    #about-paragraph {
+        margin: 0 auto;
+        width: 92%;
+    }
+    .paragraph {
+        font-size: 18px;
+    }
+    #family-image img {
+        width: 200px;
+        border-radius: 25px;
+        margin: 10px auto;
+        align-content: center;
+        margin-right: 8px;
+    }
+    .contact-logos img{
+        width: 60px;
+    }
+
+    #contact h2{
+        font-size: 25px;
+    }
+    .soft-skills, .technical-skills {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    #experience {
+        margin-top: 20px;
+    }
+    .additional-experience {
+        width: 100%;
+    }
+    .return-home {
+        visibility: hidden;
+    }
+    #projects {
+        margin-top: 10px;
+    }
+    #project-wrapper {
+        align-items: center;
+    }
+}
+
+/* Media query for tablets devices */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Header Section */
+    header {
+        margin-top: 20px;
+    }
+    header img {
+        width: 100px;
+    }
+    header li {
+        font-size: 22px;
+        padding-right: 5px;
+        padding-left: 5px;
+        margin-right: 20px;
+    }
+    /* Welcome Section */
+    .main {
+        margin-top: 150px;
+    }
+    #profile-pic {
+        height: 250px;
+        width: 250px;
+    }
+    .profile-info {
+        margin-left: 30px;
+    }
+    .profile-info p {
+        margin-left: 60px;
+    }
+    .profile-info h1 {
+        margin-left: 10px;
+    }
+    .profile-info h3 {
+        margin-left: 40px;
+        margin-bottom: 20px;
+    }
+    #button {
+        margin-left: 40px;
+    }
+    /* About Section */
+    .about {
+        margin-top: 15%;
+        margin-left: 90px;
+    }
+    .about h2 {
+        font-size: 30px;
+    }
+    #about-paragraph {
+        width: 90%;
+    }
+    .paragraph {
+        font-size: 20px;
+    }
+    #family-image img {
+        width: 300px;
+    }
+    .return-home {
+        visibility: hidden;
+    }
+    /* Experience Section */
+    #experience {
+        font-size: 30px;
+        margin-top: 80px;
+        margin-bottom: 20px;
+    }
+    .experience-wrapper h3 {
+        margin: 5px;
+    }
+    .experience-wrapper ul {
+        padding: 15px;
+    }
+    .experience-wrapper li {
+        margin: 10px 0;
+    }
+    #return-home {
+        font-size: 20px;
+    }
+    /* Projects Section */
+    #projects {
+        font-size: 30px;
+        margin-top: 80px;
+        margin-bottom: 20px;
+    }
+    #project-wrapper {
+        width: 400px;
+    }
+    .facebook-project img {
+        width: 250px;
+    }
+    .facebook-project h3, .facebook-project p {
+        margin-top: 8px;
+        font-size: 18px;
+    }
+    .facebook-project p {
+        font-size: 14px;
+    }
+    .facebook-project button {
+        width: 100px;
+        margin-bottom: 10px;
+    }
+    .contact-logos img {
+        width: 65px;
+    }
+    footer h2 {
+        font-size: 30px;
+        margin-bottom: 50px;
+        margin-top: 20px;
+    }
+}
+
+
+
+
+
+
