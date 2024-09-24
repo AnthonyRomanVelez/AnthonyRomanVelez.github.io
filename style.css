@@ -217,11 +217,15 @@ header a:hover {
     display: flex;
     padding: 20px;
     justify-content: space-around;
-    width: 300px; 
+    width: 100%; 
+    gap: 20px;
 }
-.facebook-project img {
+.facebook-project img, .chitchateando img {
     width: 300px;
     border-radius: 10px;
+}
+.chitchateando img {
+    height: 390px;
 }
 .facebook-project h3, .facebook-project p {
     color: black;
@@ -235,6 +239,7 @@ header a:hover {
     background-color: white;
     border-radius: 15px;
     text-align: center;
+    width: 400px;
 }
 .facebook-project p {
     font-size: 12px;
@@ -421,6 +426,12 @@ footer h2 {
     }
     #project-wrapper {
         align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        width: 300px;
+    }
+    .facebook-projects {
+        width: 280px;
     }
 }
 
@@ -508,7 +519,7 @@ footer h2 {
         margin-bottom: 20px;
     }
     #project-wrapper {
-        width: 400px;
+        width: 400px;        
     }
     .facebook-project img {
         width: 250px;
